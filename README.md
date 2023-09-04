@@ -6,21 +6,21 @@
 ```groovy
     implementation group: 'org.jsoup', name: 'jsoup', version: '1.16.1'
 ```
-#### 예시 코드 (자세한 코드는 내용 확인하기!) - 준비중 (조금만 나중에 올릴게요 ㅎㅁㅎ;;)
+#### 😊 예시 코드 (자세한 코드는 내용 확인하기!) - 준비중 (조금만 나중에 올릴게요 ㅎㅁㅎ;;)
 
 ### 2️⃣ Selenium을 이용한 크롤링 (동적 html 크롤링)
 
-#### 준비사항 : selenium-server-{버전}.jar파일, chromedriver
-#### 순서
- 1. selenium server(Grid) 다운로드 > https://www.selenium.dev/downloads/
- 2. chrome 자동 업데이트 끄기(터미널에 입력) 입력 후, 터미널 재실행 또는 변경된 내용 적용하기 > defaults write com.google.Keystone.Agent checkInterval 0
- 3. (참고) chrome 자동 업데이트 켜기(터미널에 입력), 터미널 재실행 또는 변경된 내용 적용하기> defaults write com.google.Keystone.Agent checkInterval 18000
- 4. chromedriver 다운로드 > https://chromedriver.chromium.org/downloads
+#### ✅ 준비사항 : selenium-server-{버전}.jar파일, chromedriver
+#### 📝 순서
+1. selenium server(Grid) 다운로드 > https://www.selenium.dev/downloads/
+2. chrome 자동 업데이트 끄기(터미널에 입력) 입력 후, 터미널 재실행 또는 변경된 내용 적용하기 > defaults write com.google.Keystone.Agent checkInterval 0
+3. (참고) chrome 자동 업데이트 켜기(터미널에 입력), 터미널 재실행 또는 변경된 내용 적용하기> defaults write com.google.Keystone.Agent checkInterval 18000
+4. chromedriver 다운로드 > https://chromedriver.chromium.org/downloads
 
-#### 주의사항1. selenium-server jar 파일과 chromedriver 버전이 맞아야 한다.
+#### 📌 주의사항1. selenium-server jar 파일과 chromedriver 버전이 맞아야 한다.
 - chromedrvier 113과, selenium-server-4.12.0.jar 연결 가능
   <br>
-#### 주의사항2. chromedriver 버전과 chrome버전이 맞아야 한다.
+#### 📌 주의사항2. chromedriver 버전과 chrome버전이 맞아야 한다.
 - chrmomedriver는 대체로 최신 chrmoe 버전보다 버전이 낮은 경우가 있는 것 같다. 따라서 다운 그레이드가 필요할 수 있다.
   다운그레이드는 OS에 맞게 다음의 사이트에서 다운로드 후 설치하면 된다. > https://google-chrome.en.uptodown.com/windows/versions
   cf. 다시 자동업데이트를 설정하려면 
@@ -29,7 +29,7 @@
 - 크롬 버전 정보 확인 > chrome://settings/help
 
 
-#### 예시 코드 (자세한 코드는 내용 확인하기!) - 준비중 (조금만 나중에 올릴게요 ㅎㅁㅎ;;)
+#### 😊 예시 코드 (자세한 코드는 내용 확인하기!) - 준비중 (조금만 나중에 올릴게요 ㅎㅁㅎ;;)
 
 
 
