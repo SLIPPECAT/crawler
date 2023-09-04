@@ -13,9 +13,9 @@
 #### ✅ 준비사항 : selenium-server-{버전}.jar파일, chromedriver
 #### 📝 순서
 1. selenium server(Grid) 다운로드 > https://www.selenium.dev/downloads/
-2. chrome 자동 업데이트 끄기(터미널에 입력) 입력 후, 터미널 재실행 또는 변경된 내용 적용하기 > defaults write com.google.Keystone.Agent checkInterval 0
-3. (참고) chrome 자동 업데이트 켜기(터미널에 입력), 터미널 재실행 또는 변경된 내용 적용하기> defaults write com.google.Keystone.Agent checkInterval 18000
-4. chromedriver 다운로드 > https://chromedriver.chromium.org/downloads
+2. chrome 자동 업데이트 끄기(터미널에 입력). 이후 터미널 재실행 등의 방법으로 변경된 내용 적용하기 > defaults write com.google.Keystone.Agent checkInterval 0
+3. chromedriver 다운로드 > https://chromedriver.chromium.org/downloads
+- cf. chrome 자동 업데이트 켜기(터미널에 입력). 이후 터미널 재실행 등의 방법으로 변경된 내용 적용하기> defaults write com.google.Keystone.Agent checkInterval 18000
 
 #### 📌 주의사항1. selenium-server jar 파일과 chromedriver 버전이 맞아야 한다.
 - chromedrvier 113과, selenium-server-4.12.0.jar 연결 가능
