@@ -1,6 +1,7 @@
 # Repository : crawler
 ## 목적 : 간단히 사용할 수 있는 크롤러를 만들어본다.
 ## 환경 : MacOS M1
+---
 ### 1️⃣ Jsoup을 이용한 크롤링 (정적 html 크롤링)
 #### 활용한 라이브러리
 ```groovy
@@ -36,7 +37,6 @@
 
 
 #### 활용한 라이브러리
-#### 2️⃣ Selenium jar 파일 임포트
 ```groovy
 implementation files('{jar 파일 경로}/selenium-server-4.12.0.jar')
  ```
