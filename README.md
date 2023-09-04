@@ -21,7 +21,7 @@
 - chromedrvier 113과, selenium-server-4.12.0.jar 연결 가능
   <br>
 #### 📌 주의사항2. chromedriver 버전과 chrome버전이 맞아야 한다.
-- chrmomedriver는 대체로 최신 chrmoe 버전보다 버전이 낮은 경우가 있는 것 같다. 따라서 다운 그레이드가 필요할 수 있다.
+- chrmomedriver는 대체로 최신 chrome의 보전보다 버전이 낮은 경우가 있는 것 같다. 이로 인해 다운 그레이드가 필요할 수 있다.
   다운그레이드는 OS에 맞게 다음의 사이트에서 다운로드 후 설치하면 된다. > https://google-chrome.en.uptodown.com/windows/versions
   cf. 다시 자동업데이트를 설정하려면 
 - 크롬 자동업데이트가 되는 것을 막아놓아야 하는데 (안그러면 계속 다시 깔아야 한다.) 
