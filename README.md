@@ -1,5 +1,5 @@
 # Repository : crawler
-### ✔️ 목적 : 간단히 사용할 수 있는 크롤러를 만들어본다. <br> ✔️ 환경 : MacOS M1, IntelliJ, JDK 11.0, chromedrvier 113, selenium-server-4.12.0.jar
+### ✔️ 목적 : 간단히 사용할 수 있는 크롤러를 만들어본다. <br> ✔️ 환경 : MacOS M1, IntelliJ ULTIMATE, JDK 11.0, chromedrvier 113, selenium-server-4.12.0.jar
 ---
 ### 1️⃣ Jsoup을 이용한 크롤링 (정적 html 크롤링)
 #### 활용한 라이브러리
