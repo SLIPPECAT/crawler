@@ -1,5 +1,5 @@
 # Repository : crawler
-### 목적 : 간단히 사용할 수 있는 크롤러를 만들어본다. | 환경 : MacOS M1
+### 목적 : 간단히 사용할 수 있는 크롤러를 만들어본다. <br> | 환경 : MacOS M1, IntelliJ, JDK 11.0, chromedrvier 113, selenium-server-4.12.0.jar
 ---
 ### 1️⃣ Jsoup을 이용한 크롤링 (정적 html 크롤링)
 #### 활용한 라이브러리
@@ -13,8 +13,9 @@
 ```groovy
 implementation files('{jar 파일 경로}/selenium-server-4.12.0.jar')
  ```
-#### ✅ 준비사항 : selenium-server-{버전}.jar파일, chromedriver
+#### ✅ 준비사항 : selenium-server-{버전}.jar파일, chromedriver, jdk
 #### 📝 순서
+0. jdk는 버전에 맞게 깔았다고 가정하겠습니다. ㅎㅎ...
 1. selenium server(Grid) 다운로드 > https://www.selenium.dev/downloads/
 2. chrome 자동 업데이트 끄기(터미널에 입력). 이후 터미널 재실행 등의 방법으로 변경된 내용 적용하기 > defaults write com.google.Keystone.Agent checkInterval 0
 3. chromedriver 다운로드 > https://chromedriver.chromium.org/downloads
