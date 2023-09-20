@@ -39,7 +39,7 @@
     void test(){
         System.setProperty("webdriver.chrome.driver", "/Users/ryujun-yeong/Documents/projects/common/lib/chromedriver_mac_arm64_116/chromedriver");
 
-        <string> ChromeOptions options = new ChromeOptions(); </strong>
+        ChromeOptions options = new ChromeOptions();
         options.addArguments("headless");
         driver = new ChromeDriver(options);
 
